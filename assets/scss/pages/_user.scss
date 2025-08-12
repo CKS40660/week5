@@ -1,22 +1,38 @@
-.tableRadius{
-    background-color: #FCFCFD;
-    border-radius: 24px;
+// .tableRadius{
+//     background-color: #FCFCFD;
+//     border-radius: 24px;
+// }
+
+
+// .carSubtitle{
+//     font-size: 18px;
+//     color: #667F99;
+// }
+
+// .formPadding{
+//     padding: 48px;
+// }
+
+// .textBoxCareer{
+//     height: 656px;
+// }
+
+// .sideWidth{
+//     width: 300px;
+// }
+
+.nav-btn-bg{
+    background-color: #fff;
 }
 
-
-.carSubtitle{
-    font-size: 18px;
-    color: #667F99;
+@media (min-width:992px) {
+    .formText{
+        max-width: 300px;
+    }        
 }
 
-.formPadding{
-    padding: 48px;
-}
-
-.textBoxCareer{
-    height: 656px;
-}
-
-.sideWidth{
-    width: 300px;
+@media (max-width:768px) {
+    .w-md-100{
+        width: 100%;
+    }
 }
